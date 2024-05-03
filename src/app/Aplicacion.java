@@ -40,6 +40,12 @@ public class Aplicacion {
 				System.out.println("Seleccion de productos disponibles".toUpperCase() + "\n");
 				gestion.mostrarProductos();
 				break;
+			case 2:
+				gestion.comprarProductos(scanner);
+				break;
+			case 3:
+				// Opción 3
+				break;
 			default:
 				// Se sale del programa
 				continuar = false;

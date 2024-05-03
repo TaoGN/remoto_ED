@@ -4,7 +4,7 @@
 package data;
 
 /**
- * @author 
+ * @author Alejandro García
  * @version 0.4
  */
 public class Musica extends Productos {
